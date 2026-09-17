@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build": "esbuild worker.mjs --bundle --platform=node --format=esm --target=node18 --outfile=worker.bundle.mjs",
+    "build": "node init && esbuild worker.mjs --bundle --platform=node --format=esm --target=node18 --outfile=worker.bundle.mjs",
     "test": "node --test"
   },
   "dependencies": {

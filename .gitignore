@@ -44,3 +44,4 @@ commentsRouter*.go
 dist/
 
 openagent.db
+config.bat
